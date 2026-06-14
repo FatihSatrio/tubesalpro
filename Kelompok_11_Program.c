@@ -43,14 +43,14 @@ int main(void) {
         if (scanf("%d", &pilih) != 1) pilih = -1;
         bersihBuffer();
         switch (pilih) {
-            case 1: tambahData();       break;
-            case 2: tampilData();       break;
-            case 3: editData();         break;
-            case 4: hapusData();        break;
-            case 5: cariData();         break;
-            case 6: urutkanData();      break;
+            case 1: tambahData(); break;
+            case 2: tampilData(); break;
+            case 3: editData(); break;
+            case 4: hapusData(); break;
+            case 5: cariData(); break;
+            case 6: urutkanData(); break;
             case 7: laporanMenunggak(); break;
-            case 8: simpanFile();       break;
+            case 8: simpanFile(); break;
             case 0: simpanFile(); printf("\n  Data disimpan. Program selesai.\n\n"); break;
             default: printf("\n  [!] Pilihan tidak valid.\n");
         }
